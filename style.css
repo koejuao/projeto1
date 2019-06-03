@@ -1,200 +1,423 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <head>
-	<title>MEDTEC</title>
-	<link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  	<header class="menu">
-		<div class="container">
-			<a class="menu-logo" href="#"><img src="img/logo.png" alt="MEDTEC"></a>	
-			<nav class="menu-nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Produtos</a></li>
-					<li><a href="#">Clientes</a></li>
-					<li><a href="#">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main class="intro">
-		<div class="container">
-		<h1>Impulsionando o seu negócio</h1>
-	    <a href="produtos.html" class="btn">Orçamento</a>
-        </div>
-   	</main>
-   	<section >
-   		<div class="container">
-   			<div class="card">
-			 <div class="card-item">
-			 	<img src="img/location.svg"/>
-			 	<h3> Relacionamento com o Cliente </h3>
-			 	<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean </span>
-			 </div>
-			 <div class="card-item">
-			 	<img src="img/doc.svg"/>
-			 	<h3> Relacionamento com o Cliente </h3>
-			 	<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean </span>
-			 </div>
-			 <div class="card-item">
-			 	<img src="img/fone.svg"/>
-			 	<h3> Relacionamento com o Cliente </h3>
-			 	<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean </span>
-			 </div>
-			</div>
-   		</div>
-   		</section>
+/* Reset */
 
-   		<section class="container service">
-   			<h1 class="subtitulo">Serviços</h1>
-   			<ul class="service-list">
-   				<li>
-   					<div class="service-list-item">
-   					<img src="img/radar.svg">
-   					<div >
-   						<h3>Radar</h3>
-   						<span>Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   					<li>
-   					<div class="service-list-item">
-   					<img src="img/sec.svg">
-   					<div >
-   						<h3>Segurança</h3>
-   						<span>Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="img/met.svg">
-   					<div >
-   						<h3>Meteorologia</h3>
-   						<span>Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="img/tele.svg">
-   					<div >
-   						<h3>Telecomunicações</h3>
-   						<span>lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="img/ener.svg">
-   					<div >
-   						<h3>Energia</h3>
-   						<span>Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="img/bio.svg">
-   					<div >
-   						<h3>Biomédica</h3>
-   						<span>Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor </span>
-   					</div>
-   					</div>
-   				</li>
-   				</li>
-   		    </ul>
-   		</section>
-   			
-   		<section class="portfolio">
-   			<h1 class="subtitulo" >Parceiros</h1>
-			<div class="container">
-				<section class="Cliente">
-				<ul class="portfolio_lista rslides_portfolio">
-					<li>
-						<div class="slide">
-							<img src="img/1.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/2.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/3.png" alt="*"></div>
-					</li>
-
-					<li>
-						<div class="slide">
-							<img src="img/4.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/5.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/6.png" alt="*"></div>
-					</li>
-					<li>
-						<div class="slide">
-							<img src="img/7.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/8.png" alt="*"></div>
-						<div class="slide">
-							<img src="img/9.png" alt="*"></div>
-					</li>
-				</ul>
-				</section>
-			</div>
-		</section>
-		
-
-   			<section class="quebra">
-			<div class="quote container">
-				<span class="frase">“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</span>
-			</div>
-			<h3 class="cite">WILLIAM MORRIS</h3>
-		</section>
-
-		<footer>
-			<div class="footer">
-				<div class="container">
-
-					<div class="footer_historia">
-						<h3>Nossa História</h3>
-						<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.</p>
-					</div>
-
-					<div class="footer_contato">
-						<h3>Contato</h3>
-						<ul>
-							<li>- 21 23232-4343</li>
-							<li>- contato@bikcraft.com</li>
-							<li>- Botafago - RJ</li>
-						</ul>
-					</div>
-
-					<div class="footer_redes">
-						<h3>Contato</h3>
-						<ul>
-							<li><a href="http://facebook.com" target="_blank"><img class="soci" src="img/face.svg"></a></li>
-							<li><a href="http://instagram.com" target="_blank"><img class="soci" src="img/insta.svg"></a></li>
-							<li><a href="http://twitter.com" target="_blank"><img class="soci" src="img/twt.svg"></a></li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="copy">
-				<div class="container">
-					<p class="">Copyright (c) 2012 MEDTEC. Todos os Direitos Reservados.</p>
-				</div>
-			</div>
-		</footer>
-
-		<!-- JavaScript -->
-	<script src="js/libs/jquery-1.11.2.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-	<!-- JavaScript -->
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+h3{
+	font-size: 16px;
+}
 
 
-</body>
-</html>
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #252525;
+}
+
+* {
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	max-width: 960px;
+	margin:0 auto;
+}
+
+ .subtitulo {
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+ .subtitulo:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	background: #36b3b3;
+	margin: 5px auto;
+}
+
+
+
+@media (max-width: 739px){
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
+}
+
+/* Menu */
+
+.menu {
+	background: #36B3B3;  /* AZUL*/
+	padding: 15px 0;
+	height: 70PX;
+	position: fixed;
+	width: 100%;
+
+}
+.menu-logo {
+	margin: 0 10px;
+}
+
+.menu-nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+.menu-nav {
+	flex: 1;
+	margin: 0 10px;
+	align-self: center;
+}
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+}
+.menu-nav ul li a {
+	padding: 10px;
+}
+
+@media (max-width: 739px){
+	.menu-nav p {
+		margin: 0px;
+	}
+	.menu-logo {
+		margin: 0px
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+	}
+}
+
+/* Intro */
+
+.intro {
+	background: url('../img/fundo.png') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding: 80px 0;
+   height: 450px;
+
+}
+.intro .container{
+	flex-direction: column;
+}
+
+.intro h1 {
+	font-size: 2em;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+
+.btn {
+	border: none;
+	color: white;
+	background: #36b3b3;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: .3s ease-in-out;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.btn:hover {
+	color: #36b3b3;
+	background: white;
+
+}
+
+@media (max-width: 739px){
+	.intro p {
+		padding: 60px 0;
+	}
+}
+
+
+.container .card{
+	margin-top: -60px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+	box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-item{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.card-item h3{
+padding: 10px 0;
+}
+
+.card-item span{
+  font-size: 12px;
+}
+
+.service{
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 60px;
+}
+
+.service-list{
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.service-list-item{
+	display: flex;
+	justify-content: flex-start;	
+	width: 300px;
+	padding-bottom: 40px ;
+
+}
+.service-list-item img {
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+.service-list-item span{
+  font-size: 12px;
+}
+
+	/*Portfólio*/
+
+.portfolio {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.parceiros{
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 60px;
+}
+
+
+.rslides, .rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li, .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+	flex-direction: column;
+
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img, .rslides_portfolio img {
+
+    display: block;
+	height: auto;
+	width: 150px;
+	border: 0;
+	padding-right: 50px;
+
+}
+
+.rslides_tabs {	
+	text-align: center;
+	margin-top: 20px;
+	
+
+}
+
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+
+
+}
+
+.rslides_tabs li a{
+	width: 12px;
+	height: 12px;
+	background: #1d1d1d;
+	color: #1d1d1d;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+	background: #36b3b3;
+	color: #36b3b3;
+
+}
+.slide{
+	position:relative;
+	padding-top: 20px;
+	display: inline-block;
+    margin-left:50px
+}
+.slide img{
+	width: 250px;
+	height: 120px;
+}
+
+	
+
+.quote span{
+	text-align: center;
+	margin-left: 300px;
+
+}
+
+.quote .container{
+	align-items: center;
+	text-align: center;
+}
+.cite{
+	font-size: 14px;
+	margin-left: 30px;
+	padding-top: 30px;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+
+	}
+.frase{
+	text-align: center;
+	font-size: 12px;
+	align-items: center;
+	max-width: 400px;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+}
+.quebra{
+	align-items: center;
+	text-align: center;
+	background: url('../img/footer.png') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding: 80px 0;
+   height: 250px;
+}
+
+/*Footer*/
+
+.footer {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	height: 180px;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #36b3b3;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #36b3b3;
+	margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+	padding-right: 60px;
+	max-width: 600px;
+	margin-right: 50px;
+	font-size: 13px;
+}
+.footer_contato{
+	margin-right: 100px;
+
+}
+
+.footer_contato ul li {
+	font-size: 13px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+	list-style: none;
+	max-width: 200px;
+	display: flex;
+    float: left;
+
+}
+.footer_redes ul{
+   	float: right;
+	display: flex;
+	list-style: none;
+
+}
+.footer_redes ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer_redes ul li a {
+	border: 3px solid #36b3b3;
+	display: block;
+}
+.soci{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px; 
+	width: 34px;
+	height: 34px;
+}
+
+.footer_redes ul li a:hover {
+	border-color: #fff;
+}
+
+.copy {
+	width: 100%;
+	background: #36b3b3;
+	padding: 20px 0;
+	}
+
+
+
+
