@@ -331,6 +331,7 @@ body {
   display: flex;
   justify-content: space-around;
   height: 180px;
+  padding-bottom: 30px;
 }
 
 .footer h3 {
@@ -353,26 +354,32 @@ body {
 
 .footer_historia {
   padding-right: 60px;
-  max-width: 600px;
-  margin-right: 50px;
+  max-width: 700px;
   font-size: 13px;
+  line-height:20px;
+  letter-spacing: 1px;
 }
 .footer_contato {
-  margin-right: 100px;
+  margin-right: 200px;
+  margin-left: 80px;
+  letter-spacing: 1px;
+
 }
 
 .footer_contato ul li {
   font-size: 13px;
   line-height: 20px;
   list-style: none;
-  max-width: 200px;
+  max-width: 600px;
   display: flex;
   float: left;
+  letter-spacing:1px
 }
 .footer_redes ul {
   float: right;
   display: flex;
   list-style: none;
+  
 }
 .footer_redes ul li {
   display: inline-block;
@@ -393,10 +400,19 @@ body {
 
 .footer_redes ul li a:hover {
   border-color: #fff;
+  transition: 0.3s ease-in-out;
+
 }
 
 .copy {
   width: 100%;
+  height: 50px;
   background: #36b3b3;
-  padding: 20px 0;
+  padding: 10px;
 }
+
+.teste{
+ font-size: 14px;
+ padding-top: 10px;
+}
+
