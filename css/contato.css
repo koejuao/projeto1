@@ -121,11 +121,10 @@
 
 .contato_redes ul li a:hover {
     border-color: #000;
-  transition: all 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .cont_redes{
-    transition: all 0.3s ease;
-
+    transition: 0.3s ease-in-out;
 }
 .btn-prod {
 	border: 3px solid #36b3b3;
