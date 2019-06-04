@@ -1,0 +1,178 @@
+/* Intro */
+
+.intro-cont {
+    background: url("../img/contato.png") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+    height: 220px;
+    margin-top: 70px;
+  }
+  
+  .intro-cont .container {
+    flex-direction: column;
+  }
+  
+  .intro-cont h1 {
+    margin-bottom: 60px;
+  }
+  
+  .subtitulo-cont {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .subtitulo-cont:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #fff;
+    margin: 5px auto;
+  }
+  .descri {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -50px;;
+  }
+  
+
+  /*CONTATO*/
+
+.contato {
+	margin-top: 50px;
+}
+
+.contato_form {
+  padding-right: 300px;
+}
+
+.contato_form label{
+	display: block;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contato_form input {
+	display: block;
+  width: 350px;
+	border: 4px solid #36b3b3;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.contato_form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #36b3b3;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+}
+
+.contato_form button {
+	padding: 7px 40px;
+	background: none;
+}
+
+.orcamento_dados {
+	color: #fff;
+}
+
+.contato_redes h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #36b3b3;
+	font-weight: bold;
+}
+
+.contato_redes span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.contato_redes span:nth-of-type(even) {
+	margin-bottom: 10px;
+}
+
+.contato_redes ul {
+	margin-top: 10px;
+}
+
+.contato_redes ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contato_redes ul li a {
+	border: 3px solid #36b3b3;
+	display: block;
+}
+
+.contato_redes ul li a:hover {
+	border-color: #000;
+}
+
+.btn-prod {
+	border: 3px solid #36b3b3;
+	padding: 10px 30px;
+	color: #36b3b3;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+  letter-spacing: .1em;
+  margin-bottom: 30px;
+}
+
+.btn-prod:hover {
+	color: #000;
+  border-color: #000;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.footer_cont ul {
+    float: right;
+    display: flex;
+    list-style: none;
+  }
+  .footer_cont ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer_cont ul li a {
+    border: 3px solid #36b3b3;
+    display: block;
+  }
+  .soci {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 34px;
+    height: 34px;
+  }
+  
+  .footer_cont ul li a:hover {
+    border-color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+
+.rede-sub{
+    margin-top: 50px;
+}
+
+.mapa-contato{
+    margin-top: 50px;
+}
