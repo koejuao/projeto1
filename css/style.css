@@ -66,10 +66,18 @@ body {
 }
 
 .menu-nav a {
+  font-size: 14px;
+  line-height: 20px;
   text-decoration: none;
   color: #fff;
-  font-size: 1.125em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1em;
 }
+.menu-nav a:hover {
+  color: #d0dada;
+}
+
 .menu-nav {
   flex: 1;
   margin: 0 10px;
