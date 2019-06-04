@@ -96,7 +96,7 @@
 /*Orçamento*/
 
 .produtos {
-	padding: 40px 0;
+	margin-bottom: 40px;
 }
 
 .produtos_form {
@@ -189,7 +189,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
   letter-spacing: .1em;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .btn-prod:hover {
