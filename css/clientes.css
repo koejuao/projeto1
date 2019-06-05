@@ -1,0 +1,75 @@
+/* Intro */
+
+.intro-clien {
+    background: url("../img/clientes.png") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+    height: 220px;
+    margin-top: 70px;
+  }
+  
+  .intro-clien .container {
+    flex-direction: column;
+  }
+  
+  .intro-clien h1 {
+    margin-bottom: 60px;
+  }
+  
+  .subtitulo-clien {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .subtitulo-clien:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #fff;
+    margin: 5px auto;
+  }
+  .descri {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -50px;;
+  }
+  
+  .card-clien-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .container .card-clien {
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    max-width: 120px;
+  }
+  
+  .card-item-clien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+  .card-item-clien h3 {
+    padding: 10px 0;
+  }
+  
+  .card-item-clien span {
+    font-size: 11px;
+    max-width: 250px;
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
