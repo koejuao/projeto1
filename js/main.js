@@ -16,10 +16,10 @@ Visibility.onVisible(function(){
 		$(".introducao h1").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function () {
-		$(".introducao blockquote").addClass("animated fadeInDown");
+		$(".introducao .btn").addClass("animated fadeInDown");
 	}, 800);
 	setTimeout(function () {
-		$(".introducao .btn").addClass("animated fadeInDown");
+		$(" .intro-card").addClass("animated fadeInDown");
 	}, 1200);
 	setTimeout(function () {
 		$(".animar").addClass("animated fadeInDown");

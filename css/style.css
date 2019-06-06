@@ -423,7 +423,7 @@ body {
 
 /*Animações*/
 
-.js .introducao h1, .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
+.js .introducao h1, .js .introducao .btn, .js .intro-card, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
 	opacity: 0;
 }
 
