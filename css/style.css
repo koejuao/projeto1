@@ -196,7 +196,6 @@ body {
   display: flex;
   justify-content: flex-start;
   width: 300px;
-  padding-bottom: 40px;
 }
 .service-list-item img {
   margin-right: 20px;
@@ -210,7 +209,6 @@ body {
 /*Portfólio*/
 
 .portfolio {
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
