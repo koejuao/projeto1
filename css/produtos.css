@@ -177,7 +177,7 @@
 }
 
 .produtos_dados ul li a:hover {
-	border-color: #000;
+	border-color: #d0dada;
 }
 
 .btn-prod {
@@ -193,8 +193,8 @@
 }
 
 .btn-prod:hover {
-	color: #000;
-  border-color: #000;
+	color: #d0dada;
+  border-color: #d0dada;
   transition: 0.3s ease-in-out;
   
 }
