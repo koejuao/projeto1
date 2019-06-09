@@ -1,5 +1,7 @@
-<?php get_header(); ?>
-
+<?php 
+//Template Name: Contato
+get_header(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<main class="intro-cont introducao-interna ">
 		<div class="container">
 		<h1 class="subtitulo-cont">CONTATO</h1>
@@ -43,4 +45,5 @@
                         </div>
                         </div>
             </section>
+            <?php endwhile; else: endif; ?>
             <?php get_footer(); ?>
