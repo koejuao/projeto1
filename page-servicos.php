@@ -1,6 +1,7 @@
-<?php get_header(); ?>
-
-
+<?php 
+//Template Name: Servicos
+get_header(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<main class="intro-servi  introducao-interna">
 		<div class="container">
 		<h1 class="subtitulo-servi">SERVIÇOS</h1>
@@ -69,4 +70,5 @@
 				</li>
 				</ul>
 		</section>
+		<?php endwhile; else: endif; ?>
 		<?php get_footer(); ?>
