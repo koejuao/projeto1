@@ -5,7 +5,7 @@ get_header(); ?>
 	<section class="intro introducao">
 		<div class="container">
 		<h1>Impulsionando o seu negócio</h1>
-			    <a href="produtos.html" class="btn">Orçamento</a>
+			    <a href="/produtos" class="btn">Orçamento</a>
         </div>
    	</section>
    	<section class="intro-card">
@@ -39,7 +39,7 @@ get_header(); ?>
    					<img src="img/radar.svg">
    					<div >
    						<h3>Radar</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo placas, módulos, válvulas e peças de uma forma geral importando com os principais fabricantes. Atuamos no mercado nos modelos de Radar <a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo placas, módulos, válvulas e peças de uma forma geral importando com os principais fabricantes. Atuamos no mercado nos modelos de Radar <a href="/servicos">...</a></span>
    					</div>
    					</div>
    					<li>
@@ -47,7 +47,7 @@ get_header(); ?>
    					<img src="img/sec.svg">
    					<div >
    						<h3>Segurança</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Câmeras, Speed Dome, DVR, cabos, Drone Sistemas, Sistemas <a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Câmeras, Speed Dome, DVR, cabos, Drone Sistemas, Sistemas <a href="/servicos">...</a></span>
    					</div>
    					</div>
    				</li>
@@ -56,7 +56,7 @@ get_header(); ?>
    					<img src="img/met.svg">
    					<div >
    						<h3>Meteorologia</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Estações Meteorológicas, Medidores de vento, Medidores <a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Estações Meteorológicas, Medidores de vento, Medidores <a href="/servicos">...</a></span>
    					</div>
    					</div>
    				</li>
@@ -65,7 +65,7 @@ get_header(); ?>
    					<img src="img/tele.svg">
    					<div >
    						<h3>Telecomunicações</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Roteadores, Switch, Servidores, Sistemas<a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Roteadores, Switch, Servidores, Sistemas<a href="/servicos">...</a></span>
    					</div>
    					</div>
    				</li>
@@ -74,7 +74,7 @@ get_header(); ?>
    					<img src="img/ener.svg">
    					<div >
    						<h3>Energia</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Led, Placas Solares, Sistemas<a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Led, Placas Solares, Sistemas<a href="/servicos">...</a></span>
    					</div>
    					</div>
    				</li>
@@ -83,7 +83,7 @@ get_header(); ?>
    					<img src="img/bio.svg">
    					<div >
    						<h3>Biomédica</h3>
-   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Sistemas, e peças de uma forma geral importando <a href="servicos.html">...</a></span>
+   						<span>A empresa MEDTEC trabalha fornecendo Placas, Módulos, Sistemas, e peças de uma forma geral importando <a href="/servicos">...</a></span>
    					</div>
    					</div>
    				</li>
