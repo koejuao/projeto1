@@ -130,7 +130,7 @@ body {
 /* Intro */
 
 .intro {
-  background: url("../img/fundo.png") no-repeat center center;
+  background: url("./img/fundo.png") no-repeat center center;
   background-size: cover;
   color: #fff;
   padding: 40px 0;
@@ -344,7 +344,7 @@ body {
 .quebra {
   align-items: center;
   text-align: center;
-  background: url("../img/footer.png") no-repeat center center;
+  background: url("./img/footer.png") no-repeat center center;
   background-size: cover;
   color: #fff;
   padding: 80px 0;
