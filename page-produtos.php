@@ -21,45 +21,13 @@ get_header(); ?>
 				<?php endwhile; else : endif; ?>
 
 				 </section>
-						<h1 class="subtitulo-orc">ORÇAMENTO</h1>
-						<section class="produtos container">
-							<form id="form_orcamento" class="produtos_form">
-								<label for="nome">Nome</label>
-								<input type="text" id="nome">
-								<label for="email">E-mail</label>
-								<input type="text" id="email">
-								<label for="telefone">Telefone</label>
-								<input type="text" id="telefone">
-								
-								<button type="submit" class="btn-prod">Enviar</button>
-							</form>
-							<div class="produtos_dados">
-								<h3>Dados</h3>
-								<span>+55 21 93223 3232</span>
-								<span>orcamento@bikcraft.com</span>
-								
-								<h3>PEÇA SEU EQUIPAMENTO</h3>
-								<span>Escolha as especificações:</span>
-								<p>
-									<select class="basic">
-										<option value="" selected="selected" >-Equipamento</option>
-										<option value="" >Placas</option>
-										<option value="" >Switch</option>
-										<option value="" >Cabos</option>
-									</select>
-								</p>
-								<p>
-									<select class="basic">
-											<option value="" selected="selected" >-Quantidade</option>
-										<option value="" >5</option>
-										<option value="" >10</option>
-										<option value="" >15</option>
-									</select>
-								</p>
-</div>
+					
+							<section class="container">	
+							<a href="/contato" class="btn-prod">Contato</a>
+							
+              </section>
 
 									
 								
-						</section>
 						<?php endwhile; else: endif; ?>
 						<?php get_footer(); ?>

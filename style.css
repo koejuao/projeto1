@@ -135,7 +135,7 @@ body {
   color: #fff;
   padding: 40px 0;
   height: 450px;
-  margin-top: 38px;
+  margin-top: 20px;
 }
 .intro .container {
   flex-direction: column;
@@ -165,8 +165,11 @@ body {
   justify-content: center;
 }
 .btn:hover {
-  color: #36b3b3;
-  background: white;
+  color: #fff;
+  border: 3px solid #fff;
+  background: rgba(255, 255, 255, 0);
+  
+
 }
 
 @media (max-width: 739px) {
@@ -223,7 +226,10 @@ body {
 }
 .btn-servi:hover {
   color: #36b3b3;
-  background: #000;
+  border: 3px solid #36b3b3;
+  background: white;
+  transition: 0.3s ease-in-out;
+
 }
 .call {
   margin-top: -70px;
