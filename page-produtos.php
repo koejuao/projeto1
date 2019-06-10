@@ -10,45 +10,16 @@ get_header(); ?>
         </div>
 		 </main>
 
-        <section class="container animar-interno">
-            <div class="card-prod-list">
+        <section class="container card-prod-list  animar-interno">
+		<?php if(have_rows('produtos')): while(have_rows('produtos')) : the_row(); ?>
                 <div class="card-prod">
               <div class="card-item-prod">
-                  <img src="img/cabe.png"/>
-                  <span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-							</div>
-							</div>
-							<div class="card-prod">
-								<div class="card-item-prod">
-										<img src="img/swit.png"/>
-										<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-								</div>
-								</div>
-								<div class="card-prod">
-									<div class="card-item-prod">
-											<img src="img/nobreak.png"/>
-											<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-									</div>
-									</div>
-									<div class="card-prod">
-										<div class="card-item-prod">
-												<img src="img/cabe.png"/>
-												<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-										</div>
-										</div>
-										<div class="card-prod">
-											<div class="card-item-prod">
-													<img src="img/swit.png"/>
-													<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-											</div>
-											</div>
-											<div class="card-prod">
-												<div class="card-item-prod">
-														<img src="img/nobreak.png"/>
-														<span>	Lorem ipsum lacus himenaeos habitant massa quis congue tellus rhoncus, facilisis arcu inceptos mollis aenean nulla tortor  </span>
-												</div>
-												</div>
-							</div>
+			  <img src="<?php the_sub_field('foto_produtos'); ?>">
+                  <span><?php the_sub_field('texto_produtos'); ?></span>
+				</div>
+				</div>
+				<?php endwhile; else : endif; ?>
+
 				 </section>
 						<h1 class="subtitulo-orc">ORÇAMENTO</h1>
 						<section class="produtos container">
@@ -85,10 +56,10 @@ get_header(); ?>
 										<option value="" >15</option>
 									</select>
 								</p>
-									
+</div>
+
 									
 								
 						</section>
 						<?php endwhile; else: endif; ?>
 						<?php get_footer(); ?>
-            

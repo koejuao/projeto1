@@ -26,9 +26,9 @@
 					<div class="footer_redes">
 						<h3>Contato</h3>
 						<ul>
-							<li><a href="http://facebook.com" target="_blank"><img class="soci" src="img/face.svg"></a></li>
-							<li><a href="http://instagram.com" target="_blank"><img class="soci" src="img/insta.svg"></a></li>
-							<li><a href="http://twitter.com" target="_blank"><img class="soci" src="img/twt.svg"></a></li>
+							<li><a href="http://facebook.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/face.svg"></a></li>
+							<li><a href="http://instagram.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/insta.svg"></a></li>
+							<li><a href="http://twitter.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/twt.svg"></a></li>
 						</ul>
 					</div>
 

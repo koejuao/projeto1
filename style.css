@@ -295,9 +295,10 @@ body {
   margin: 0 5px;
 }
 
-.rslides_tabs li a {
+.rslides_tabs li a{
+  display: inline-block;
   width: 12px;
-  height: 12px;
+  height: 13px;
   background: #1d1d1d;
   color: #1d1d1d;
   border-radius: 20px;
