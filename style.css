@@ -135,7 +135,7 @@ body {
   color: #fff;
   padding: 40px 0;
   height: 450px;
-  margin-top: 70px;
+  margin-top: 38px;
 }
 .intro .container {
   flex-direction: column;
@@ -202,6 +202,44 @@ body {
   font-size: 12px;
 }
 
+.btn-servi{
+  border: none;
+  color: white;
+  background: #36b3b3;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+  margin-bottom: 50px;
+}
+.btn-servi:hover {
+  color: #36b3b3;
+  background: #000;
+}
+.call {
+  margin-top: -70px;
+  text-align: center;
+  clear: both;
+}
+
+.call p{
+  margin-bottom: 20px;
+}
+
+.service {
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
 .service {
   justify-content: center;
   flex-direction: column;

@@ -6,7 +6,7 @@
     color: #fff;
     padding: 50px 0;
     height: 220px;
-    margin-top: 70px;
+    margin-top: 38px;
   }
   
   .intro-cont .container {
@@ -120,13 +120,13 @@
 }
 
 .contato_redes ul li a:hover {
-    border-color: #d0dada;
+    border-color: #000;
   transition: 0.3s ease-in-out;
 }
 .cont_redes{
     transition: 0.3s ease-in-out;
 }
-.btn-prod {
+.btn-cont {
 	border: 3px solid #36b3b3;
 	padding: 10px 30px;
 	color: #36b3b3;
@@ -138,9 +138,9 @@
   margin-bottom: 40px;
 }
 
-.btn-prod:hover {
-	color: #d0dada;
-  border-color: #d0dada;
+.btn-cont:hover {
+	color: #000;
+  border-color: #000;
   transition: 0.3s ease-in-out;
   
 }
