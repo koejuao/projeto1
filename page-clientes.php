@@ -10,57 +10,20 @@ get_header(); ?>
         </div>
          </main>
 
-         <section class="container animar-interno">
-            <div class="card-clien-list">
+         <section class="container card-clien-list animar-interno">
+		<?php if(have_rows('clientes')): while(have_rows('clientes')) : the_row(); ?>
+
                 <div class="card-clien">
               <div class="card-item-clien">
-                  <img src="img/osw.png"/>
-                  <span>	Fundação Oswaldo Cruz  </span>
-							</div>
-							</div>
-							<div class="card-clien">
-								<div class="card-item-clien">
-										<img src="img/iac.png"/>
-										<span>		IACIT  </span>
-								</div>
-								</div>
-								<div class="card-clien">
-								<div class="card-item-clien">
-											<img src="img/gdm.png"/>
-											<span>		Governo de Minas Gerais  </span>
-									</div>
-									</div>
-									<div class="card-clien">
-								                <div class="card-item-clien">
-												<img src="img/rio.png"/>
-												<span>	Prefeitura da Cidade do Rio de Janeiro  </span>
-										</div>
-										</div>
-										<div class="card-clien">
-								                <div class="card-item-clien">
-													<img src="img/pame.png"/>
-													<span>	Parque de Material da Aeronáutica do Rio de Janeiro </span>
-											</div>
-											</div>
-											<div class="card-clien">
-								                <div class="card-item-clien">
-														<img src="img/decea.png"/>
-														<span>		Departamento de Controle do Espaço Aéreo</span>
-												</div>
-                                                </div>
-                                                <div class="card-clien">
-								                <div class="card-item-clien">
-                                                            <img src="img/cida.png"/>
-                                                            <span>	Quarto Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo</span>
-                                                    </div>
-                                                    </div>
-                                                    <div class="card-clien">
-								                <div class="card-item-clien">
-                                                                <img src="img/marinha.png"/>
-                                                                <span>		Marinha do Brasil</span>
-                                                        </div>
-                                                        </div>
-							</div>
+			  <img src="<?php the_sub_field('foto_clientes'); ?>">
+                  
+			  <span><?php the_sub_field('texto_clientes'); ?></span>
+             </div>
+                </div>
+        <?php endwhile; else: endif; ?>
+
+                 
+							
                  </section>
 				 <?php endwhile; else: endif; ?>
                  
