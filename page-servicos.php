@@ -11,61 +11,20 @@ get_header(); ?>
 		 </main>
 		 <section class="container service-2 animar-interno">
 			<ul class="service-list-2">
+			<?php if(have_rows('conteudo_servi')): while(have_rows('conteudo_servi')) : the_row(); ?>
+
 				<li>
 					<div class="service-list-item-2 ">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/radar.svg">
+					<img src="<?php the_sub_field('foto_servi'); ?>">
 					<div >
-						<h3 class="servi-h3">Radar</h3>
-						<p><?php the_field('texto_radar'); ?></p>
+					<h3><?php the_sub_field('titulo_servi'); ?></h3>
+						
+						<p><?php the_sub_field('texto_servi'); ?></p>
 					</div>
 					</div>
-					<li>
-					<div class="service-list-item-2">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/sec.svg">
-					<div >
-						<h3 class="servi-h3">Segurança</h3>
-						<p><?php the_field('texto_sec'); ?></p>
-					</div>
-					</div>
-				</div>
-				</li>
-				<li>
-					<div class="service-list-item-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/tele.svg">
-							<div >
-								<h3 class="servi-h3">Telecomunicações</h3>
-								<p><?php the_field('texto_tele'); ?></p>
-							</div>
-					</div>
-				</li>
-				<li>
-					<div class="service-list-item-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ener.svg">
-							<div >
-								<h3 class="servi-h3">Energia</h3>
-								<p><?php the_field('texto_ener'); ?></p>		
-								</div>
-					</div>
-				</li>
-				<li>
-					<div class="service-list-item-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/met.svg">
-							<div >
-									<h3 class="servi-h3">Meteorologia</h3>
-									<p><?php the_field('texto_met'); ?></p>					
-							</div>
-					</div>
-				</li>
-				<li>
-					<div class="service-list-item-2">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/bio.svg">
-					<div >
-						<h3 class="servi-h3">Biomédica</h3>
-						<p><?php the_field('texto_bio'); ?></p>	
-					</div>
-					</div>
-				</li>
-				</li>
+</li>
+					<?php endwhile; else : endif; ?>
+					
 				</ul>
 		</section>
 		<?php endwhile; else: endif; ?>

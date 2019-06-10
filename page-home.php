@@ -12,18 +12,18 @@ get_header(); ?>
    		<div class="container">
    			<div class="card">
 			 <div class="card-item">
-			 	<img src="<?php echo get_template_directory_uri(); ?>/img/location.svg"/>
+			 	<img src="<?php echo get_template_directory_uri(); ?>/img/location.png"/>
 			 	<h3> Sistema integrado de gestão empresarial (ERP)</h3>
 			 	<span>	
 				 <?php the_field('texto_erp'); ?> </span>
 			 </div>
 			 <div class="card-item">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/fone.svg"/>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/headset.png"/>
 				<h3> Relacionamento com o Cliente (CRM)</h3>
 				<span><?php the_field('texto_crm'); ?></span>
 			</div>
 			 <div class="card-item">
-			 	<img src="<?php echo get_template_directory_uri(); ?>/img/doc.svg"/>
+			 	<img src="<?php echo get_template_directory_uri(); ?>/img/contract.png"/>
 			 	<h3> Gestão Eletrônica de Documentos (GED)</h3>
 			 	<span><?php the_field('texto_ged'); ?></span>
 			 </div>
@@ -34,61 +34,20 @@ get_header(); ?>
    		<section class="container service animar">
    			<h1 class="subtitulo">Serviços</h1>
    			<ul class="service-list">
-   				<li>
+			 <?php if(have_rows('conteudo_servi')): while(have_rows('conteudo_servi')) : the_row(); ?>
+			 <li>
    					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/radar.svg">
-   					<div >
-   						<h3>Radar</h3>
-   						<span><?php the_field('texto_radar'); ?> </span>
+						 <img src="<?php the_sub_field('foto_servi'); ?>">
+						 <div>
+						 <h3><?php the_sub_field('titulo_servi'); ?></h3>
+						 <span><?php the_sub_field('texto_servi'); ?></span>
    					</div>
+						 </li>
+						 <?php endwhile; else : endif; ?>
+						 </ul>
+
    					</div>
-   					<li>
-   					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/sec.svg">
-   					<div >
-   						<h3>Segurança</h3>
-   						<span><?php the_field('texto_sec'); ?></span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/met.svg">
-   					<div >
-   						<h3>Meteorologia</h3>
-   						<span><?php the_field('texto_met'); ?> </span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/tele.svg">
-   					<div >
-   						<h3>Telecomunicações</h3>
-   						<span><?php the_field('texto_tele'); ?></span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/ener.svg">
-   					<div >
-   						<h3>Energia</h3>
-   						<span><?php the_field('texto_ener'); ?></span>
-   					</div>
-   					</div>
-   				</li>
-   				<li>
-   					<div class="service-list-item">
-   					<img src="<?php echo get_template_directory_uri(); ?>/img/bio.svg">
-   					<div >
-   						<h3>Biomédica</h3>
-   						<span><?php the_field('texto_bio'); ?> </span>
-   					</div>
-   					</div>
-   				</li>
-   				</li>
-   		    </ul>
+   		
 					 <div class="call">
 				<a href="/servicos" class=" btn-servi">saiba mais</a>
 			</div>
