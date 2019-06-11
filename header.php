@@ -11,7 +11,7 @@
   	<header class="menu">
 		<div class="container">
 			<a class="menu-logo" href="/home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="MEDTEC"></a>	
-			<nav class="menu-nav">
+			<nav class="header_menu menu-nav">
 				<ul>
 					<li><a href="/home">Home</a></li>
 					<li><a href="/servicos">Serviços</a></li>

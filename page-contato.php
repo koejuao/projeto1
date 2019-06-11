@@ -10,37 +10,41 @@ get_header(); ?>
         </div>
          </main>
 		<section class="contato container animar-interno">
-         <form id="form_orcamento" class="contato_form">
+         <form action="<?php echo get_template_directory_uri(); ?>/enviar.php" id="form_orcamento" class="formphp contato_form">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input id="nome" name="nome" type="text">
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input id="email" name="email" type="text">
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input id="telefone" name="telefone" type="text">
                 <label for="nome">Assunto</label>
-                <input type="text" id="assunto">
+                <input id="assunto" name="assunto" type="text">
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://" >
                 <label for="espec">Especificações</label>
-				<textarea id="espec"></textarea>
+                <textarea name="espec" id="espec"></textarea>
                 
-                <button type="submit" class="btn-cont">Enviar</button>
+                <button id="enviar" name="enviar" type="submit" class="btn-cont">Enviar</button>
             </form>
            
             <div class="contato_redes "> 
                     <h3>Dados</h3>
-                    <span>+55 21 93223 3232</span>
-                    <span>orcamento@bikcraft.com</span>
-                    <span>Rua Ali Perto - Botafogo</span>
-                    <span>Rio de Janeiro - RJ - Brasil</span>
+                    <span><?php the_field('telefone'); ?></span>
+				    <span><?php the_field('email'); ?></span>
+				    <span><?php the_field('endereco1'); ?></span>
+				    <span><?php the_field('endereco2'); ?></span>
                     <div class="mapa-contato">
-                            <img src="img/mapa.png">
+                    <a href="<?php the_field('link_mapa'); ?>" target="_blank" ><img src="<?php the_field('imagem_mapa'); ?>" alt="<?php the_field('texto_mapa'); ?>"></a>
                             </div>   
                             
                     <div class="cont_redes">
                             <h3 class="rede-sub">Contato</h3>
                             <ul>
-                                <li><a href="http://facebook.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/face.svg"></a></li>
-                                <li><a href="http://instagram.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/insta.svg"></a></li>
-                                <li><a href="http://twitter.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/twt.svg"></a></li>
+                                <li><a href="<?php the_field('link_face'); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/face.svg"></a></li>
+                                <li><a href="<?php the_field('link_insta'); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/insta.svg"></a></li>
+                                <li><a href="<?php the_field('link_twt'); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/twt.svg"></a></li>
                             </ul>
                         </div>
                         </div>

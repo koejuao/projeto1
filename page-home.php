@@ -53,36 +53,25 @@ get_header(); ?>
 			</div>
    		</section>
    			
-   		<section class="portfolio">
+   		<section class="portfolio ">
    			<h1 class="subtitulo" >Parceiros</h1>
 			<div class="container">
 				<section class="Cliente">
 				<ul class="portfolio_lista rslides_portfolio">
-					<li>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="*"></div>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/2.png" alt="*"></div>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/3.png" alt="*"></div>
-					</li>
+			 <?php if(have_rows('foto_slide')): while(have_rows('foto_slide')) : the_row(); ?>
 
 					<li>
 						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/4.png" alt="*"></div>
+						 <img src="<?php the_sub_field('foto1'); ?>">
+							</div>
 						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="*"></div>
+						 <img src="<?php the_sub_field('foto2'); ?>">
+							</div>
 						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/6.png" alt="*"></div>
+						 <img src="<?php the_sub_field('foto3'); ?>">
+							</div>
 					</li>
-					<li>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/8.png" alt="*"></div>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/7.png" alt="*"></div>
-						<div class="slide">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/9.png" alt="*"></div>
-					</li>
+					<?php endwhile; else : endif; ?>
 				</ul>
 				</section>
 			</div>

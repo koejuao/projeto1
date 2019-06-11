@@ -1,3 +1,5 @@
+<?php $contato = get_page_by_title('contato'); ?>
+
 <section class="quebra">
 			<div class="quote container">
 				<span class="frase">“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</span>
@@ -17,27 +19,26 @@
 					<div class="footer_contato">
 						<h3>Contato</h3>
 						<ul>
-							<li>- 21 23232-4343</li>
-							<li>- contato@bikcraft.com</li>
-							<li>- Botafago - RJ</li>
+							<li> <?php the_field('telefone', $contato); ?></li>
+							<li> <?php the_field('email', $contato); ?></li>
+							<li> <?php the_field('endereco1', $contato); ?></li>
 						</ul>
 					</div>
 
 					<div class="footer_redes">
-						<h3>Contato</h3>
+						<h3>Redes Sociais</h3>
 						<ul>
-							<li><a href="http://facebook.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/face.svg"></a></li>
-							<li><a href="http://instagram.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/insta.svg"></a></li>
-							<li><a href="http://twitter.com" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/twt.svg"></a></li>
-						</ul>
+                                <li><a href="<?php the_field('link_face', $contato); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/face.svg"></a></li>
+                                <li><a href="<?php the_field('link_insta', $contato); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/insta.svg"></a></li>
+                                <li><a href="<?php the_field('link_twt', $contato); ?>" target="_blank"><img class="soci" src="<?php echo get_template_directory_uri(); ?>/img/twt.svg"></a></li>
+                            </ul>
+						</div>
 					</div>
-
-				</div>
 			</div>
 
 			<div class="copy">
 				<div class="container">
-					<p class="teste">Copyright (c) 2012 MEDTEC. Todos os Direitos Reservados.</p>
+					<p class="teste">Copyright (c)  <?php echo date('Y'); ?> MEDTEC - Todos os Direitos Reservados.</p>
 				</div>
 			</div>
 		</footer>
