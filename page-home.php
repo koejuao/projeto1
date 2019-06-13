@@ -13,18 +13,18 @@ get_header(); ?>
    			<div class="card">
 			 <div class="card-item">
 			 	<img src="<?php echo get_template_directory_uri(); ?>/img/location.png"/>
-			 	<h3> Sistema integrado de gestão empresarial (ERP)</h3>
+			 	<h3> ERP</h3>
 			 	<span>	
 				 <?php the_field('texto_erp'); ?> </span>
 			 </div>
 			 <div class="card-item">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/headset.png"/>
-				<h3> Relacionamento com o Cliente (CRM)</h3>
+				<h3> CRM</h3>
 				<span><?php the_field('texto_crm'); ?></span>
 			</div>
 			 <div class="card-item">
 			 	<img src="<?php echo get_template_directory_uri(); ?>/img/contract.png"/>
-			 	<h3> Gestão Eletrônica de Documentos (GED)</h3>
+			 	<h3> GED</h3>
 			 	<span><?php the_field('texto_ged'); ?></span>
 			 </div>
 			 			</div>

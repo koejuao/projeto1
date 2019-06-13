@@ -1,16 +1,15 @@
 <?php $contato = get_page_by_title('contato'); ?>
 
 <section class="quebra">
-			<div class="quote container">
+			<div class="container">
 				<span class="frase">“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</span>
 			</div>
 			<h3 class="cite">WILLIAM MORRIS</h3>
 		</section>
 
 		<footer>
-			<div class="footer">
+		<div class="contato-footer">
 				<div class="container">
-
 					<div class="footer_historia">
 						<h3>Nossa História</h3>
 						<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.</p>

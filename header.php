@@ -3,6 +3,8 @@
   <head>
 	<title><?php bloginfo('name'); ?></title>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
  
     <?php wp_head(); ?>
 
@@ -11,7 +13,8 @@
   	<header class="menu">
 		<div class="container">
 			<a class="menu-logo" href="/home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="MEDTEC"></a>	
-			<nav class="header_menu menu-nav">
+			<span class="mobile-btn"></span>
+			<nav class="menu-nav mobile-menu">
 				<ul>
 					<li><a href="/home">Home</a></li>
 					<li><a href="/servicos">Serviços</a></li>
