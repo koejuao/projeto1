@@ -1,7 +1,7 @@
 <?php 
 
 // Função para registrar os Scripts e o CSS
-function medtec_scripts() {
+function origamid_scripts() {
 	// Desregistra o jQuery do Wordpress
 	wp_deregister_script('jquery');
 
@@ -21,13 +21,13 @@ function medtec_scripts() {
 	wp_enqueue_script( 'modernizr' );
 	wp_enqueue_script( 'main-script' );	
 }
-add_action( 'wp_enqueue_scripts', 'medtec_scripts' );
+add_action( 'wp_enqueue_scripts', 'origamid_scripts' );
 
 function origamid_css() {
 	wp_register_style( 'origamid-style', get_template_directory_uri() . '/style.css', array(), false, false );
 	wp_enqueue_style( 'origamid-style' );
 }
-add_action( 'wp_enqueue_scripts', 'medtec_css' );
+add_action( 'wp_enqueue_scripts', 'origamid_css' );
 
 // Funções para Limpar o Header
 remove_action('wp_head', 'rsd_link');
