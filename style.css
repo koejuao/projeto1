@@ -68,8 +68,8 @@ Version: 1.0
  
  @media (max-width: 739px) {
 	 .container {
-		 flex-direction: column;
 		 max-width: 600px;
+
 	 }
  }
  @media (max-width: 480px) {
@@ -292,6 +292,7 @@ Version: 1.0
  @media (max-width: 739px) {
 	 .card {
 		 padding: 10px 0;
+		
 	 }
 	 .card-item h3 {
 		 padding: 10px 0;
