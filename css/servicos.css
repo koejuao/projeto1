@@ -126,3 +126,22 @@
 }
 
 }
+@media (max-width: 480px) {
+  .service-list-2 {
+    justify-content: center;
+  }
+  .service-list-item-2 {
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+  .service-list-item-2 img {
+   margin-right: 0;
+   margin-bottom: 10px;
+   width: 40px;
+   margin: 0 auto;
+  }
+  
+}
