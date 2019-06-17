@@ -3,13 +3,13 @@
 get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<main class="intro-servi  introducao-interna">
-		<div class="contain">
+		<div class="container">
 		<h1 class="subtitulo-servi">SERVIÇOS</h1>
 		<p class="descri"> venha conhecer nossos serviços	</p>
 	    
         </div>
 		 </main>
-		 <section class="contain 	animar-interno">
+		 <section class="container 	animar-interno">
 			<ul class="service-list-2">
 			<?php if(have_rows('conteudo_servi')): while(have_rows('conteudo_servi')) : the_row(); ?>
 

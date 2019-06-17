@@ -69,6 +69,7 @@
   display: flex;
   justify-content: flex-start;
   padding-bottom: 40px;
+  margin-top: 50px;
 }
 
 .service-list-item-2 img {
@@ -96,6 +97,7 @@
     width: 570px;
     display: flex;
     justify-content: flex-start;
+    margin-left: 50px;
   }
   .servi-h3{
     font-size:1.25em;
@@ -136,6 +138,8 @@
     text-align: center;
     margin-bottom: 10px;
     max-width: 300px;
+    margin-top: 20px;
+    margin-left: 0;
   }
   .service-list-item-2 img {
    margin-right: 0;
