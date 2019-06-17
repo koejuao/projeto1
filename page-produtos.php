@@ -3,14 +3,14 @@
 get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<main class="intro-prod  introducao-interna">
-		<div class="container">
+		<div class="contain">
 		<h1 class="subtitulo-prod">PRODUTOS</h1>
 		<p class="descri"> conheça todos os nossos produtos	</p>
 	    
         </div>
 		 </main>
 
-        <section class="container card-prod-list  animar-interno">
+        <section class="contain card-prod-list  animar-interno">
 		<?php if(have_rows('produtos')): while(have_rows('produtos')) : the_row(); ?>
                 <div class="card-prod">
               <div class="card-item-prod">
@@ -22,7 +22,7 @@ get_header(); ?>
 
 				 </section>
 					
-							<section class="container">	
+							<section class="contain">	
 							<a href="/contato" class="btn-prod">Contato</a>
 							
               </section>

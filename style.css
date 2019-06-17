@@ -50,6 +50,11 @@ Version: 1.0
 	 max-width: 960px;
 	 margin: 0 auto;
  }
+ .contain {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+}
  
  .subtitulo {
 	 font-size: 48px;
@@ -68,8 +73,13 @@ Version: 1.0
  
  @media (max-width: 739px) {
 	 .container {
-		 flex-direction: column;
-		 max-width: 600px;
+		flex-direction: column;
+		
+	 }
+	 .contain{
+		display: flex;
+		max-width: 600px;
+		margin: 0 auto;
 
 	 }
  }
@@ -77,6 +87,10 @@ Version: 1.0
 	 .container {
 		 flex-direction: column;
 		 max-width: 300px;
+	 }
+	 .contain{
+		flex-direction: column;
+		max-width: 300px;
 	 }
  }
  
@@ -256,7 +270,6 @@ Version: 1.0
  /** card flutuante **/
  
  .container .card {
-	max-width: inherit;
 	 padding: 25px;
 	 margin-top: -60px;
 	 border: 1px solid #ccc;
@@ -292,6 +305,9 @@ Version: 1.0
  }
  
  @media (max-width: 739px) {
+	.container .card{
+		/*max-width: inherit;*/
+	}
 	 .card {
 		 padding: 10px 0;
 		

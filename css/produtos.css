@@ -9,7 +9,7 @@
   margin-top: 70px;
 }
 
-.intro-prod .container {
+.intro-prod .contain {
   flex-direction: column;
 }
 
@@ -65,7 +65,7 @@
   margin-top: 50px;
 }
 
-.container .card-prod {
+.contain .card-prod {
   margin-top: 40px;
   margin-left: 20px;
   width: 300px;
@@ -100,20 +100,19 @@
 }
 
 @media (max-width: 739px) {
-	.container .card-prod {
-    margin-top: 20px;
+	.contain .card-prod {
     margin-left: 65px;
     width:200px;
   }
-  .card-prod-list {
-    margin-top: 25px
+  .contain .card-prod-list {
+    margin-top: 20px
   }
 	.card-item-prod span {
 		font-size: 10px;
     line-height: 20px;
     max-width:180px
   }
-  .container .btn-prod{
+  .contain .btn-prod{
     width:125px;
     margin-bottom:20px;
     margin-top:20px;

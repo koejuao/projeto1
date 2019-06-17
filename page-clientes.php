@@ -3,14 +3,14 @@
 get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <main class="intro-clien  introducao-interna">
-		<div class="container">
+		<div class="contain">
 		<h1 class="subtitulo-clien">CLIENTES</h1>
 		<p class="descri"> Conheça alguns de nossos clientes	</p>
 	    
         </div>
          </main>
 
-         <section class="container card-clien-list animar-interno">
+         <section class="contain card-clien-list animar-interno">
 		<?php if(have_rows('clientes')): while(have_rows('clientes')) : the_row(); ?>
 
                 <div class="card-clien">

@@ -9,7 +9,7 @@
   margin-top: 70px;
 }
 
-.intro-clien .container {
+.intro-clien .contain {
   flex-direction: column;
 }
 
@@ -54,7 +54,6 @@
 }
     @media (max-width: 739px){
       .card-clien-list   {
-      
         max-width:20px;
         display:flex;
         max-width: 300px;
@@ -68,7 +67,7 @@
   margin-bottom: 40px;
 }
 
-.container .card-clien {
+.contain .card-clien {
   margin-top: 40px;
   margin-left: 100px;
   border-radius: 4px;
@@ -99,9 +98,7 @@
   padding-bottom: 20px;
 }
 
-  .container .card-clien {
-    margin-top:-0px;
-    margin-top:20px;
+  .contain .card-clien {
     margin-left: 100px;
     width:200px;
   }
