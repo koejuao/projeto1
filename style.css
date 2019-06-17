@@ -74,12 +74,12 @@ Version: 1.0
  @media (max-width: 739px) {
 	 .container {
 		flex-direction: column;
+		max-width: 600px;
+
 		
 	 }
 	 .contain{
-		display: flex;
 		max-width: 600px;
-		margin: 0 auto;
 
 	 }
  }
