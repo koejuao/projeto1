@@ -44,5 +44,49 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 // Habilitar Menus
 add_theme_support('menus');
 
-
-?>
+/*
+Plugin Name: My Custom Post Types
+Description: Add post types for movies and movie reviews
+Author: Joao Pedro
+*/
+ 
+// Hook <strong>lc_custom_post_movie()</strong> to the init action hook
+add_action( 'init', 'lc_custom_post_movie' );
+ 
+// The custom function to register a movie post type
+function lc_custom_post_movie() {
+ 
+  // Set the labels, this variable is used in the $args array
+  $labels = array(
+    'name'               => __( 'Clientes' ),
+    'singular_name'      => __( 'Cliente' ),
+    'add_new'            => __( 'Adicionar Novo Cliente' ),
+    'add_new_item'       => __( 'Adicionar Novo Cliente' ),
+    'edit_item'          => __( 'Editar Cliente' ),
+    'new_item'           => __( 'Novo Cliente' ),
+    'all_items'          => __( 'Todos Clientes' ),
+    'view_item'          => __( 'Visualizar Cliente' ),
+    'search_items'       => __( 'Buscar Clientes' ),
+    'featured_image'     => 'Imagem',
+    'set_featured_image' => 'Adicionar Imagem'
+  );
+ 
+  // The arguments for our post type, to be entered as parameter 2 of register_post_type()
+  $args = array(
+    'labels'            => $labels,
+    'description'       => 'Holds our movies and movie specific data',
+    'public'            => true,
+    'menu_position'     => 5,
+    'supports'          => array( 'title', 'editor', 'thumbnail' ),
+    'has_archive'       => true,
+    'show_in_admin_bar' => true,
+    'show_in_nav_menus' => true,
+    'has_archive'       => true,
+    'query_var'         => 'film'
+  );
+ 
+  // Call the actual WordPress function
+  // Parameter 1 is a name for the post type
+  // Parameter 2 is the $args array
+  register_post_type( 'cliente', $args);
+}

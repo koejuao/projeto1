@@ -32,6 +32,7 @@ Version: 1.0
  }
  h3 {
 	 font-size: 16px;
+	 
  }
  a {
 	 text-decoration: none;
@@ -82,6 +83,10 @@ Version: 1.0
 		max-width: 600px;
 
 	 }
+	 .subtitulo {
+		font-size: 40px;
+		color: #2d3436;
+	}
  }
  @media (max-width: 480px) {
 	 .container {
@@ -92,6 +97,14 @@ Version: 1.0
 		flex-direction: column;
 		max-width: 300px;
 	 }
+	 .subtitulo {
+		font-size: 36px;
+	 }
+	 .subtitulo:after {
+		content: "";
+		display: block;
+		width: 80px;
+	}
  }
  
  /* Menu */
@@ -297,6 +310,8 @@ Version: 1.0
  }
  .card-item h3 {
 	 padding: 10px 0;
+	 color: #2d3436;
+
  }
  
  .card-item span {
@@ -396,6 +411,11 @@ Version: 1.0
 	 line-height: 20px;
 	 margin-bottom: 20px;
  }
+	 .service-list-item h3{
+		
+	 color: #2d3436;
+	}
+	 
  .service-list-item img {
 	 margin-right: 20px;
 	  margin-bottom: 150px;
