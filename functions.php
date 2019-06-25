@@ -90,3 +90,4 @@ function lc_custom_post_movie() {
   // Parameter 2 is the $args array
   register_post_type( 'cliente', $args);
 }
+?>
